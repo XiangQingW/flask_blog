@@ -1,0 +1,101 @@
+body {
+    width:85%;
+    margin:0 auto;
+    font:62.5%/1.6 "Lucida Grande", Verdana, Arial Helvetica, sans-serif;
+}
+
+#header {
+    width:100%;
+    background:#b0b0b0;
+    font-size:2.5em;
+    float:left;
+}
+
+#simple_information ul, #header ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#header li {
+    float: left;
+}
+
+#header a {
+    text-decoration:none;
+    line-height:60px;
+    color:#fff;
+    padding:0 15px;
+}
+
+#header a:hover {
+    background:#94bbe9;
+    color:#000;
+}
+
+#mainContainer {
+    font-size:1.8em;
+    clear:both;    
+}
+
+#footer{
+    clear:both;
+    background:#b0b0b0;
+    line-height:40px;
+    text-align:center;
+    font-size:1.5em;
+    color:#fff;
+}
+
+#update {
+    width:74%;
+    float:left;
+}
+
+#simple_information {
+    width:24%;
+    float:right;
+    margin:10px 0px;
+}
+
+#simple_information h3 {
+    font-weight:normal;
+    margin-top:0;
+    margin-bottom:8px;
+}
+
+#simple_information a{
+    padding-left:15px;
+    text-decoration:none;
+    color: #0593d3;
+}
+
+.weibo_show {
+    width:100%;
+}
+
+.weibo_show dl{
+    display:inline-block;
+    padding:0;
+    margin:0 0 0 2px;
+    vertical-align:top;
+    overflow:hidden;
+}
+
+.weibo_show dt {
+    padding:0;
+    margin:0;
+    display:inline;
+    font-size:1em;
+}
+
+.weibo_show dd {
+    margin:0;
+    font-size:0.8em;
+    display:inline;
+}
+
+#simple_information .weibo_show dl a {
+    padding:0;
+}
+

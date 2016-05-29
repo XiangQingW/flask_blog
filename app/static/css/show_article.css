@@ -1,0 +1,24 @@
+body {
+    width:55%;
+    margin:0 auto;
+    font:62.5%/1.6 "Lucida Grande", Verdana, Arial Helvetica, sans-serif;
+}
+
+.title {
+    font-size:2.5em;
+    font-weight:normal;
+    text-align:center;
+}
+
+.information {
+    text-align:center;
+    font-size:1.5em;
+}
+
+.content {
+    font-size:1.8em;
+}
+
+pre {
+    margin-left:-50px;
+}

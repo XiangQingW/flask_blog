@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="/static/css/wonderful_life.css" type="text/css" ></link>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="position">
+                <a href="/home">和光的主页</a>
+                <span>></span>
+                <a href="/wonderful_life">照片</a>
+            </div>
+        </div>
+
+        <div class="containter">
+            {% for cover in albums_cover %}
+            <a href="/woderful_life/photo">
+                <img src="{{ cover }}" alt="第一个相册" style="width:265px; height:353px;"/>
+            </a>
+            {% endfor %} 
+        </div>
+        <script src="/static/js/main_album.js"></script>
+    </body>
+
+
+</html>

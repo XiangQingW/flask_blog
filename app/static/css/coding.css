@@ -1,0 +1,92 @@
+body {
+    width:85%;
+    margin:0 auto;
+    font:62.5%/1.6 "Lucida Grande", Verdana, Arial Helvetica, sans-serif;
+}
+
+.wraper {
+    width:100%;
+}
+
+.header {
+    float:left;
+    margin:0;
+    width:100%;
+    background: #b0b0b0;
+}
+
+.time_label a, .header a {
+    text-decoration:none;
+}
+
+.page_position {
+    padding-left:15px;
+    font-size:1.5em;
+}
+
+.page_position a {
+    color:#fff;
+}
+
+
+.classify {
+    font-size:2.5em;
+}
+
+.time_label ul, .classify ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.classify li {
+    float: left;
+}
+.classify a {
+    line-height:60px;
+    color:#fff;
+    padding:0 15px;
+}
+
+.page_position a:hover, .classify a:hover {
+    background:#94bbe9;
+    color:#000;
+}
+
+
+.mainContent {
+    width:100%;
+    float:left;
+    font-size:1.8em;
+}
+
+.mainContent .abstract {
+    width:74%;
+    float: left;
+}
+
+.mainContent .time_label {
+    width:24%;
+    float: left;
+    margin:10px 0;
+}
+
+.time_label h3 {
+    margin-top:0;
+    margin-bottom:8px;
+    font-weight:normal;
+}
+
+.time_label a {
+    margin-left:15px;
+    color:#0593d3;
+}
+
+.footer {
+    clear:both;
+    background:#b0b0b0;
+    line-height:40px;
+    text-align:center;
+    font-size:1.5em;
+    color:#fff;
+}

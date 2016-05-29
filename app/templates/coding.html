@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>编程</title>
+        <link rel="stylesheet" href="/static/css/coding.css" type="text/css"></link>
+    </head>
+
+    <body>
+        <div class="wraper">
+            <div class="header">
+                <div class="page_position">
+                    <a href="/home">和光的主页</a>
+                    <span>></span>
+                    <a href="#">编程</a>
+                </div>
+                <div class="classify">
+                    <ul>
+                        <li><a href="/coding/linux">linux</a></li>
+                        <li><a href="/coding/python">python</a></li>
+                        <li><a href="/coding/javascript">javascript</a></li>
+                        <li><a href="/coding/css">html/css</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mainContent">
+                <div class="abstract">
+                    {% for article in articles %}
+                    <div class="item_wraper">
+                        <a href="{{ article.id }}">{{ article.title  }}</a>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="time_label">
+                    <h3>文章存档</h3>
+                    <ul>
+                        <li><a href="#">2016年5月(0)</a></li>
+                        <li><a href="#">2016年4月(0)</a></li>
+                        <li><a href="#">2016年3月(0)</a></li>
+                        <li><a href="#">2016年2月(0)</a></li>
+                        <li><a href="#">2016年1月(0)</a></li>
+                    </ul>
+                    <h3>标签</h3>
+                    <ul>
+                        <li><a href="#">python(0)</a></li>
+                        <li><a href="#">linux(0)</a></li>
+                        <li><a href="#">js(0)</a></li>
+                        <li><a href="#">html(0)</a></li>
+                        <li><a href="#">css(0)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <p>和光同尘</p>
+            </div>
+        </div>
+    </body>
+</html>
