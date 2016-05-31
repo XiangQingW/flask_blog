@@ -1,0 +1,4 @@
+2016-5-30
+to do list
+    add mysql
+    write photos showing page

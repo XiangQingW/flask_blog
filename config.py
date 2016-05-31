@@ -21,6 +21,8 @@ class DevelopmentConfig(Config):
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
+    SQLALCHEMY_DATABASE_URI = 'mysql://root:123456@127.0.0.1/flask_blog'
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 config = {
     'development': DevelopmentConfig,
