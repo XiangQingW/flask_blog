@@ -75,6 +75,13 @@ class Untils:
             
         im.resize((newWidth,newHeight),Image.ANTIALIAS).save(arg['dst_img'],quality=arg['save_q'])
 
+    @classmethod
+    def get_photos_in_album(cls, album):
+        photos_in_album = []
+        album_path = cls.image_path + album 
+        photos_in_album = os.listdir(album_path)
+        return photos_in_album
+
 
 if __name__ == "__main__":
     src = '../static/image/album1/2.jpg'
